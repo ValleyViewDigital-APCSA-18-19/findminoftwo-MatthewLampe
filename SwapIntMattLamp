@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class swapInt
+{
+    public static void main (String[] args)
+    {
+        int Beyonce, Michelle;
+        Scanner Kelly = new Scanner(System.in);
+        
+        System.out.print("Enter Two numerals: ");
+        Beyonce = Kelly.nextInt();
+        Michelle = Kelly.nextInt();
+        
+        if (Beyonce > Michelle)
+        {
+            System.out.println(Beyonce + " " + Michelle);
+        }
+        else if (Beyonce < Michelle)
+        {
+            System.out.println(Michelle + " " + Beyonce);
+        }
+        else
+        {
+            System.out.println(Beyonce + " equals " + Michelle);
+        }
+    }
+}
